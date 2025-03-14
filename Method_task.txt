@@ -1,0 +1,30 @@
+Task 1: CalculatorVoidApp.java (Using Void Methods)
+Description:
+In CalculatorVoidApp.java, you'll implement a simple calculator using void methods. Each method will perform a specific arithmetic operation (addition, subtraction, multiplication, division, etc.), but instead of returning values, they will simply print the results to the console.
+
+Task Logic:
+
+Addition: Create a void method Addition() that accepts two parameters and prints the sum of the two numbers.
+Subtraction: Create a void method Subtraction() that accepts two parameters and prints the difference between the two numbers.
+Multiplication: Create a void method Multiplication() that accepts two parameters and prints the product of the two numbers.
+Division: Create a void method Division() that accepts two parameters and prints the quotient of the two numbers. Handle the case where division by zero might occur and print an appropriate message.
+Modulus: Create a void method Modulus() that accepts two parameters and prints the remainder when the first number is divided by the second.
+Instructions:
+
+Use System.out.println() inside each method to display the result of the operation.
+Do not return any values from these methods; just perform the operations and print the output directly.
+Task 2: CalculatorReturnApp.java (Using Return Methods)
+Description:
+In CalculatorReturnApp.java, implement a simple calculator using return methods. Each method will perform an arithmetic operation and return the result to be used by the calling method.
+
+Task Logic:
+
+Addition: Create a method Addition() that takes two parameters and returns the sum of the two numbers.
+Subtraction: Create a method Subtraction() that takes two parameters and returns the difference between the two numbers.
+Multiplication: Create a method Multiplication() that takes two parameters and returns the product of the two numbers.
+Division: Create a method Division() that takes two parameters and returns the quotient of the two numbers. Handle division by zero and return an error message or a special value (e.g., Double.NaN) if division by zero occurs.
+Modulus: Create a method Modulus() that takes two parameters and returns the remainder when the first number is divided by the second.
+Instructions:
+
+Each method should return the result of the operation (e.g., int, double, or String depending on the operation).
+In the main method, call these return methods and store the results in variables. Then print the results.
