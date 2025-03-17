@@ -1,3 +1,4 @@
+package session_01;
 // session on 14/03/2025
 // This is the class definition for JavaMethodDemo
 // The class contains a main method which is the entry point for the program
