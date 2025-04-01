@@ -9,10 +9,10 @@ public class ClassAndObject {
         // This will display a message from the main method
         printmsg(); 
         
-        // Creating an object of the ClassAndObject class using the default constructor
+        // Creating an object of the SecondClass class 
         SecondClass obj1 = new SecondClass();
         
-        // Calling the printmsg() method from the ClassAndObject object
+        // Calling the printmsg() method from the SecondClass object
         obj1.printmsg(); 
     }
 
@@ -21,11 +21,10 @@ public class ClassAndObject {
         // Printing a message from the main class
         System.out.println("hello from main method");
         
-        // Creating an object of the ClassAndObject class inside this method
-        // This calls the default constructor of the ClassAndObject class
+        // Creating an object of the SecondClass class inside this method
         SecondClass obj1 = new SecondClass();
         
-        // Calling the printmsg() method of the ClassAndObject class
+        // Calling the printmsg() method of the SecondClass class
         obj1.printmsg();
     }
 }
@@ -33,13 +32,12 @@ public class ClassAndObject {
 
 
 
-// Class with constructor overloading
 // This class contains a method to print messages
 class SecondClass {
 
     // Method that prints a message when called
     public void printmsg(){
-        // Printing a message from the ClassAndObject class
+        // Printing a message from the SecondClass class
         System.out.println("hello from additional class method");
     }
 }
