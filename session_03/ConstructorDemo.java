@@ -3,6 +3,9 @@ public class ConstructorDemo {
         SecondClass obj1 = new SecondClass();
         obj1.printmsg();
 
+        
+        SecondClass obj2 = new SecondClass("Hello");
+        
     }
 }
 
@@ -15,5 +18,9 @@ class SecondClass{
 
     public SecondClass() {
         System.out.println("Constructor of SecondClass called");
+    }
+
+    public SecondClass(String x) {
+        System.out.println(x + "  Constructor of SecondClass called");
     }
 }
