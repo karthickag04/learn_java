@@ -1,0 +1,41 @@
+Java OOP Task List
+
+1. Create a class `Student` with private fields and implement getter and setter methods.
+
+2. Develop a class hierarchy where `Vehicle` is the parent class, and `Car` and `Bike` are subclasses demonstrating hierarchical inheritance.
+
+3. Implement a multilevel inheritance chain: `Device → Laptop → GamingLaptop` and add methods to display details at each level.
+
+4. Override a method from the parent class in a subclass to provide specialized behavior (e.g., `displayInfo()` in `Employee` and `Manager`).
+
+5. Use the `super` keyword to access parent class methods and variables inside a subclass.
+
+6. Design a `Company` class and a `Department` class where `Department` inherits from `Company` and adds its own attributes. Print both company and department info.
+
+7. Create a program with a base class `Shape` and derived classes `Circle`, `Rectangle`, etc., each with its own method to calculate area.
+
+8. Demonstrate encapsulation by creating a `BankAccount` class with private balance and public methods to deposit, withdraw, and check balance.
+
+9. Implement a class `University` with a method `printInfo()`. Create a subclass `Faculty` that overrides `printInfo()` and adds more details.
+
+10. Write a class structure where `Person → Employee → Manager`, and each class adds one unique property. Display all properties from the `Manager` class object.
+
+11. Create a `Book` class with private fields `title` and `author`, and implement getters and setters for both.
+
+12. Build a class `Animal` and subclasses `Dog`, `Cat`, and `Elephant` that inherit from `Animal` and override a method `makeSound()`.
+
+13. Demonstrate how to call both the subclass method and the overridden superclass method using `super`.
+
+14. Create a class `Employee` with a method `calculateSalary()`. Inherit it in `FullTimeEmployee` and `PartTimeEmployee` classes and override the method with different logic.
+
+15. Develop a `Library` class and a subclass `DigitalLibrary`. Use encapsulation to protect the number of books and add methods to manage books.
+
+16. Design a `School` class with a method `getSchoolDetails()`. Create a subclass `Teacher` that calls the superclass method using `super` and adds additional teacher info.
+
+17. Implement a program where a `Course` class is inherited by `OnlineCourse` and `OfflineCourse`, each with their own unique methods.
+
+18. Create a class `Gadget` with private variables `brand` and `price`. Implement appropriate getters and setters and print them from a separate main class.
+
+19. Demonstrate multilevel inheritance using classes: `Person → Student → GraduateStudent`. Add fields like `name`, `rollNo`, `degree` and methods to display all.
+
+20. Create a base class `Media` with subclasses `Audio`, `Video`, and `Image`. Use `getInfo()` in each subclass to show polymorphic behavior via method overriding.
