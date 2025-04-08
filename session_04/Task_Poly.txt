@@ -1,0 +1,24 @@
+🔹 Task 1: Method Overloading Design
+Design a class called Calculator that performs different types of calculate() operations using method overloading. List at least three overloaded method signatures you would include. Explain what each method would do.
+
+🔹 Task 2: Overloading Validity Check
+Given the following method names and parameters, determine whether each is a valid overloaded method (Y/N) and briefly explain why.
+
+void print()
+
+void print(int a)
+
+int print()
+
+void print(float a, int b)
+
+void Print(int a)
+
+✅ Runtime Polymorphism Tasks
+🔹 Task 1: Class Hierarchy with Overridden Methods
+Imagine a parent class Vehicle with a method startEngine(). You are to create two subclasses: Car and Motorcycle, each overriding the startEngine() method.
+Explain how runtime polymorphism would allow different versions of startEngine() to be called when accessed via a Vehicle reference.
+
+🔹 Task 2: Real-Life Example
+Think of a real-world example where different objects share the same interface but behave differently.
+Example: A RemoteControl interface might be implemented by a TVRemote and an ACRemote. Describe how calling the same method, like powerButton(), leads to different behavior based on the object type, showcasing runtime polymorphism.
