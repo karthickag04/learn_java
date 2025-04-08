@@ -1,24 +1,72 @@
-🔹 Task 1: Method Overloading Design
-Design a class called Calculator that performs different types of calculate() operations using method overloading. List at least three overloaded method signatures you would include. Explain what each method would do.
+Task 1: Method Overloading
+Create a class called Printer with the following methods:
 
-🔹 Task 2: Overloading Validity Check
-Given the following method names and parameters, determine whether each is a valid overloaded method (Y/N) and briefly explain why.
+print(int num) – Prints the integer number.
 
-void print()
+print(String text) – Prints the given string.
 
-void print(int a)
+print(double value) – Prints the double value.
 
-int print()
+Test the program by calling the overloaded print() method with an integer, a string, and a double.
 
-void print(float a, int b)
 
-void Print(int a)
+---------------------------------
 
-✅ Runtime Polymorphism Tasks
-🔹 Task 1: Class Hierarchy with Overridden Methods
-Imagine a parent class Vehicle with a method startEngine(). You are to create two subclasses: Car and Motorcycle, each overriding the startEngine() method.
-Explain how runtime polymorphism would allow different versions of startEngine() to be called when accessed via a Vehicle reference.
+Task 2: Inheritance and Method Overriding
+Create a Parent class with a method called speak() that prints "I am the parent."
 
-🔹 Task 2: Real-Life Example
-Think of a real-world example where different objects share the same interface but behave differently.
-Example: A RemoteControl interface might be implemented by a TVRemote and an ACRemote. Describe how calling the same method, like powerButton(), leads to different behavior based on the object type, showcasing runtime polymorphism.
+Then, create a Child class that extends the Parent class and overrides the speak() method to print "I am the child."
+
+Test the program by creating an instance of Child and calling the speak() method.
+
+
+---------------------------------
+
+Task 3: Polymorphism with Method Overriding
+Create a Vehicle class with a method called move() that prints "The vehicle is moving."
+
+Then, create two subclasses:
+
+Car – Override the move() method to print "The car is driving."
+
+Bike – Override the move() method to print "The bike is cycling."
+
+Create a Vehicle reference and assign it to instances of Car and Bike. Call the move() method using the Vehicle reference and observe polymorphism in action.
+
+
+---------------------------------
+
+Task 4: Polymorphism with Constructor
+Create a Shape class with a constructor that takes a String color and sets the color of the shape. Then, create two subclasses:
+
+Circle – Inherits from Shape and has a method to print the area of the circle.
+
+Square – Inherits from Shape and has a method to print the area of the square.
+
+Create instances of both Circle and Square with different colors and print out their areas. Demonstrate how polymorphism allows calling the correct method for each type of shape.
+
+
+---------------------------------
+
+Task 5: Animal Sound
+Create a Parent class called Animal with a method called makeSound() that prints "Some animal sound."
+
+Then, create two subclasses:
+
+Dog – Override the makeSound() method to print "Bark!"
+
+Cat – Override the makeSound() method to print "Meow!"
+
+Create an Animal reference, assign it to Dog and Cat objects, and call the makeSound() method to observe polymorphism in action.
+
+
+---------------------------------
+
+Task 6: Polymorphism with Overloaded Constructors
+Create a Person class with the following constructors:
+
+Person(String name) – Initializes the person's name.
+
+Person(String name, int age) – Initializes the person's name and age.
+
+Test the program by creating instances of the Person class using both constructors, and print out the person's name and age.
