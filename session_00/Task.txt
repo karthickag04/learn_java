@@ -12,9 +12,7 @@ Read the sentence. Write the “if” condition and the “then” result.
 5. If the traffic light is red, cars must stop.
 
 
-🧑‍💻 Task 2: Pseudocode Fun (Coding Without a Computer)
-Write pseudocode (like fake code in plain English) for these situations:
-
+🧑‍💻 Task 2: 
 1. If it’s Saturday or Sunday, print “Yay! It’s weekend!”
 
 2. If your score is more than 50, print “You passed!”
