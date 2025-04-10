@@ -1,6 +1,30 @@
 # Learn Java - Sessions Overview
 
-This folder contains various Java programs and resources to help you understand fundamental concepts in Java programming. Below is a description of each session and its files.
+## Setting Up Java on Windows
+
+### Step 1: Download Java SE
+- Visit the official Oracle website to download Java SE: [Java SE Downloads](https://www.oracle.com/java/technologies/javase-downloads.html)
+- Choose the appropriate version for your operating system and download the installer.
+
+### Step 2: Install Java
+- Run the downloaded installer and follow the on-screen instructions to install Java.
+
+### Step 3: Add `bin` Folder to Environment Variables
+1. Locate the installation directory of Java (e.g., `C:\Program Files\Java\jdk-XX.X.X`).
+2. Inside the installation directory, find the `bin` folder (e.g., `C:\Program Files\Java\jdk-XX.X.X\bin`).
+3. Copy the path to the `bin` folder.
+
+4. Add the path to the `bin` folder to the `Path` environment variable:
+   - Open the Start menu and search for "Environment Variables."
+   - Click on "Edit the system environment variables."
+   - In the System Properties window, click on the "Environment Variables" button.
+   - Under "System variables," find the `Path` variable and click "Edit."
+   - Click "New" and paste the copied path to the `bin` folder.
+   - Click "OK" to save the changes.
+
+### Step 4: Verify Installation
+- Open a Command Prompt and type `java -version` to verify that Java is installed correctly.
+- Type `javac -version` to verify that the Java compiler is installed correctly.
 
 ---
 
