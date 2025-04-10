@@ -1,0 +1,80 @@
+🔷 Task 1: Handle ArithmeticException
+Description:
+
+Write a program that performs division of two integers. Handle the case where the denominator is zero using try-catch.
+
+Expected Behavior:
+
+If the user tries to divide by zero, catch the ArithmeticException and display "Cannot divide by zero!".
+
+
+
+int a = 10;
+int b = 0; // try changing to 2
+int result = a / b;
+
+-------------------------
+
+
+🔷 Task 2: ArrayIndexOutOfBoundsException
+Description:
+
+Create an integer array with 3 elements and attempt to access the 5th element. Use try-catch to handle ArrayIndexOutOfBoundsException.
+
+Expected Behavior:
+
+Catch the exception and print "Index is out of bounds!".
+
+
+int[] numbers = {1, 2, 3};
+System.out.println(numbers[4]);
+
+
+-------------------------
+
+
+🔷 Task 3: Handle Multiple Exceptions
+Description:
+
+Write a program that might throw both ArithmeticException and ArrayIndexOutOfBoundsException. Use multiple catch blocks to handle them.
+
+Expected Behavior:
+
+Handle each exception separately and print appropriate messages.
+
+
+int[] arr = {1, 2, 3};
+int result = arr[5] / 0;
+
+-------------------------
+
+
+🔷 Task 4: Finally Block Execution
+Description:
+
+Demonstrate the use of finally block. Even if an exception occurs, the finally block should print "Cleanup done."
+
+Expected Behavior:
+
+The finally block always executes, regardless of exception handling.
+
+
+try {
+    int x = 10 / 0;
+} catch (Exception e) {
+    System.out.println("Exception occurred");
+} finally {
+    System.out.println("Cleanup done");
+}
+
+-------------------------
+
+
+🔷 Task 5: Custom Exception
+Description:
+
+Create a custom exception class InvalidAgeException that is thrown when the age is less than 18.  
+note:- try to implememt logic of inheritance(Exception given by java will be parent class the create your custom class) with custom method for this logic
+
+Expected Behavior:
+Throw the exception if age is below 18 and catch it to print "Age must be 18 or older."
