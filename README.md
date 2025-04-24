@@ -5,6 +5,7 @@
 ### Step 1: Download Java SE
 - Visit the official Oracle website to download Java SE: [Java SE Downloads](https://www.oracle.com/java/technologies/javase-downloads.html)
 - Choose the appropriate version for your operating system and download the installer.
+- if Windows select (Winodws) and download .msi or .exe file
 
 ### Step 2: Install Java
 - Run the downloaded installer and follow the on-screen instructions to install Java.
