@@ -27,6 +27,60 @@
 - Open a Command Prompt and type `java -version` to verify that Java is installed correctly.
 - Type `javac -version` to verify that the Java compiler is installed correctly.
 
+### Step 5: Installation on IDE
+- **IntelliJ Installation**:
+  1. Download IntelliJ IDEA Community Edition from the official JetBrains website: [IntelliJ IDEA Downloads](https://www.jetbrains.com/idea/download/).
+  2. Run the installer and follow the on-screen instructions to install IntelliJ IDEA.
+  3. Launch IntelliJ IDEA and configure the JDK:
+     - Go to `File > Project Structure > SDKs`.
+     - Click `+` and select the path to your installed JDK.
+  4. Create a new Java project and start coding.
+
+- **VS Code Installation**:
+  1. Download Visual Studio Code from the official website: [VS Code Downloads](https://code.visualstudio.com/).
+  2. Install the Java Extension Pack:
+     - Open VS Code and go to the Extensions view (`Ctrl+Shift+X`).
+     - Search for "Java Extension Pack" and click "Install."
+  3. Configure the JDK:
+     - Open the Command Palette (`Ctrl+Shift+P`) and search for "Java: Configure Java Runtime."
+     - Set the path to your installed JDK.
+  4. Create a new Java file and start coding.
+
+### Step 6: Running first Java Program using cmd under vscode
+1. Open VS Code and create a new Java file (e.g., `HelloWorld.java`).
+2. Write your Java code. For example:
+   ```java
+   public class HelloWorld {
+       public static void main(String[] args) {
+           System.out.println("Hello, World!");
+       }
+   }
+   ```
+3. Open the terminal in VS Code (`Ctrl+```) and navigate to the directory containing the Java file.
+4. Compile the Java file:
+   ```
+   javac HelloWorld.java
+   ```
+5. Run the compiled program:
+   ```
+   java HelloWorld
+   ```
+6. The output will appear in the terminal.
+
+### Step 6a: Running first Java Program using Intellij
+1. Open IntelliJ IDEA and create a new Java project.
+2. Add a new Java class (e.g., `HelloWorld`).
+3. Write your Java code. For example:
+   ```java
+   public class HelloWorld {
+       public static void main(String[] args) {
+           System.out.println("Hello, World!");
+       }
+   }
+   ```
+4. Right-click on the file and select `Run 'HelloWorld.main()'`.
+5. The output will appear in the Run window at the bottom of IntelliJ IDEA.
+
 ---
 
 ## Session 00: Basics of Java
