@@ -1,8 +1,15 @@
-public class JavaOperators {
+public class E0JavaOperators {
     
 }
 
-// Java operators list with examples and syntax
+// Basic Operators:
+// Arithmetic: +, -, *, /, %
+// Assignment: =, +=, -=, *=, /=, %=
+// Comparison: ==, !=, >, <, (30>=10 && 10<=10 && 10!=20)
+// Logical: &&, ||, !
+
+// Bitwise: &, |, ^, ~, <<, >>, >>>
+
 
 // Arithmetic Operators
 // + (Addition) - e.g., a + b
@@ -34,6 +41,7 @@ public class JavaOperators {
 // || (Logical or) - e.g., a || b
 // ! (Logical not) - e.g., !a
 
+
 // Bitwise Operators
 // & (Bitwise and) - e.g., a & b
 // | (Bitwise or) - e.g., a | b
@@ -42,3 +50,21 @@ public class JavaOperators {
 // << (Left shift) - e.g., a << b
 // >> (Right shift) - e.g., a >> b
 // >>> (Unsigned right shift) - e.g., a >>> b
+
+
+// 00110010
+// 00110011
+// --------
+// 00110010
+
+// // Converts a letter to its decimal (ASCII) representation as a String
+// public static String letterToDecimal(char letter) {
+//     int decimalValue = letter;
+//     return String.valueOf(decimalValue);
+// }
+
+// // Converts a decimal number to its binary representation as a String
+// public static String decimalToBinary(int decimal) {
+//     return Integer.toBinaryString(decimal);
+// }
+//  string method to convert letter to decimal and decimal to binary

@@ -1,4 +1,4 @@
-public class AssignmentProgram {
+public class E2JavaAssignmentProgram {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;

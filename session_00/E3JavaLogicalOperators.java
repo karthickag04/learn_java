@@ -1,14 +1,14 @@
-public class LogicalOperators {
+public class E3JavaLogicalOperators {
     public static void main(String[] args) {
         // Boolean examples
         boolean a = true;
         boolean b = false;
-        System.out.println("a && b: " + (a && b));
+        System.out.println("a && b: " + (a && b ));
         System.out.println("a || b: " + (a || b));
         System.out.println("!a: " + (!a));
         boolean c = true;
         boolean d = false;
-        System.out.println("(a && b) || (c && d): " + ((a && b) || (c && d)));
+        System.out.println("(a && b) || (c && d): " + ((a && b) && (c && d)));
 
         // Integer comparisons
         int x = 10;

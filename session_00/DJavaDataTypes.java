@@ -1,4 +1,4 @@
-public class Java_data_types {
+public class DJavaDataTypes {
     public static void main(String[] args) {
         // Primitive Data Types
         byte e = 100; // 8-bit signed integer
