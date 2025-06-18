@@ -123,4 +123,48 @@ Convert a String to int using wrapper class and perform addition.
 
 Write a program to demonstrate autoboxing and unboxing.
 
+
+
+🔹 Tasks 21–30: Classes, Objects, and Constructor Practice
+21. Create a class Student with fields: name, rollNo, and marks. Use a constructor to initialize them and a method to display the data.
+
+22. Write a class Employee with parameterized constructors to initialize id, name, designation, and salary. Print the details using a method.
+
+23. Create a class Circle with a field radius. Write a method to calculate area and perimeter. Accept input through constructor.
+
+24. Create a class Book with title, author, and price. Use default and parameterized constructors. Display using a method.
+
+25. Create a class BankAccount with accountNo, holderName, and balance. Write deposit() and withdraw() methods.
+
+26. Write a program using multiple classes: College, Department, and Faculty. Create objects and demonstrate constructor chaining.
+
+27. Create a Product class and show the total cost by using unit price and quantity as constructor parameters.
+
+28. Create a class Rectangle with methods to calculate area and perimeter using constructor inputs for length and width.
+
+29. Create a class Computer with attributes like brand, RAM, and price. Use constructor and display function to print the details.
+
+30. Write a program to create multiple student objects using an array of objects and display each student's information.
+
+🔹 Tasks 31–40: OOP – Inheritance, Polymorphism, Encapsulation
+31. Create a parent class Person and a child class Teacher. Inherit name and age, and add subject and salary. Print full details.
+
+32. Implement single inheritance using Vehicle as the base class and Car as the derived class. Add appropriate fields and methods.
+
+33. Demonstrate multilevel inheritance: Person → Employee → Manager. Each class should add one additional property.
+
+34. Show hierarchical inheritance using classes: Animal → Dog, Animal → Cat. Each class should have its own sound method.
+
+35. Create a class Shape with method area(). Override it in classes Circle and Square. Demonstrate runtime polymorphism.
+
+36. Demonstrate method overloading in a class MathOperations with methods to add integers, doubles, and three numbers.
+
+37. Create a program for a Printer class with overloaded print() methods to handle String, int, and double inputs.
+
+38. Create a class Student with private variables. Use getter and setter methods to implement encapsulation.
+
+39. Create a class Bank with private balance. Use methods to deposit(), withdraw(), and get the balance using encapsulation.
+
+40. Demonstrate constructor overloading in a class Laptop. Create constructors with different sets of parameters (brand, RAM, processor).
+
 Create a custom exception InvalidAgeException if age is below 18.
