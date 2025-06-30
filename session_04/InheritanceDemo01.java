@@ -30,6 +30,8 @@ public class InheritanceDemo01 extends University {
 
 
     public static void main(String[] args) {
+    setUniversityName("Bharathidsan University");
+        
 }
 
     public void setUniversityName(String name) {
