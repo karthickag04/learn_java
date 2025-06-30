@@ -25,7 +25,7 @@ class University{
 
 
 
-public class EncapsulationDemo02 extends University {
+public class InheritanceDemo01 extends University {
 
 
 
