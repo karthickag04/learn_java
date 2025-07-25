@@ -1,0 +1,170 @@
+🔰 Section 1: Basics of Java (Syntax, Variables, Data Types, Operators)
+    Write a program to print your name, class, and school name.
+
+    Write a program to add, subtract, multiply, divide, and mod two numbers.
+
+    Declare all primitive data types and display their default values.
+
+    Swap two numbers using a third variable.
+
+    Swap two numbers without using a third variable.
+
+    Write a program to check whether a number is even or odd.
+
+    Write a program to find the largest of three numbers.
+
+    Write a program to check whether a character is a vowel or consonant.
+
+    Write a program to demonstrate logical, arithmetic, and relational operators.
+
+    Create a calculator that performs operations based on user input (+, -, *, /, %).
+
+🔢 Section 2: Control Statements and Loops
+    Write a program to print all numbers from 1 to 100.
+
+    Write a program to print multiplication table for a given number.
+
+    Write a program to calculate factorial of a number.
+
+    Write a program to find the sum of all even numbers from 1 to 50.
+
+    Write a program to print Fibonacci series up to n terms.
+
+    Write a program to find if a number is prime.
+
+    Write a program to print a triangle pattern using *.
+
+    Write a program to reverse a number.
+
+    Write a program to find sum of digits of a number.
+
+    Write a program to check if a number is palindrome.
+
+📦 Section 3: Arrays and Strings
+    Write a program to find the sum of elements in an array.
+
+    Write a program to find the largest and smallest number in an array.
+
+    Write a program to count the number of even and odd numbers in an array.
+
+    Write a program to search for an element in an array.
+
+    Write a program to reverse an array.
+
+    Write a program to sort an array in ascending order.
+
+    Write a program to check if a string is a palindrome.
+
+    Write a program to count vowels and consonants in a string.
+
+    Write a program to compare two strings.
+
+    Write a program to find the frequency of characters in a string.
+
+🧮 Section 4: Methods and Input Handling
+Write a method to check if a number is even.
+
+Write a method to return the maximum of three numbers.
+
+Write a method that takes user input and returns whether it's a prime number.
+
+Overload a method to find the area of a circle, square, and rectangle.
+
+Create a method that returns the sum of array elements.
+
+Create a class with static and non-static methods to calculate power of a number.
+
+Write a program using Scanner to read name, age, and marks of a student and display them.
+
+Create a program that uses method overloading to print different types of data.
+
+🧱 Section 5: Classes, Objects, and Constructors
+Create a class Student with properties: name, roll no, and marks. Display details using a method.
+
+Create a class BankAccount with methods for deposit and withdrawal.
+
+Create a class Employee with a constructor to initialize name, id, and salary.
+
+Create a class Book with parameterized constructor and display book details.
+
+Create a class with multiple constructors to initialize different values.
+
+Create a class Car with methods to accelerate, brake, and display speed.
+
+Create a Calculator class with method overloading for basic operations.
+
+🧬 Section 6: OOP - Inheritance, Polymorphism, Encapsulation, Abstraction
+Create a parent class Animal and child classes Dog, Cat. Demonstrate method overriding.
+
+Create a class hierarchy to demonstrate multilevel inheritance.
+
+Write a program to demonstrate hierarchical inheritance using Vehicle, Car, Bike.
+
+Write a program to demonstrate encapsulation with getter and setter methods.
+
+Create an abstract class Shape with abstract method area(). Extend it with Circle, Rectangle.
+
+Create an interface Sports and implement it in classes Cricket and Football.
+
+Create a class Person with private data and use encapsulation to modify it.
+
+Demonstrate method overloading in a class Printer for int, float, and String values.
+
+🛠️ Section 7: Exception Handling and Wrapper Classes
+Write a program to handle ArithmeticException when dividing by zero.
+
+Write a program to handle ArrayIndexOutOfBoundsException.
+
+Write a program to take two numbers as input and handle input mismatch exception.
+
+Demonstrate use of try-catch-finally with division operation.
+
+Convert a String to int using wrapper class and perform addition.
+
+Write a program to demonstrate autoboxing and unboxing.
+
+
+
+🔹 Tasks 21–30: Classes, Objects, and Constructor Practice
+21. Create a class Student with fields: name, rollNo, and marks. Use a constructor to initialize them and a method to display the data.
+
+22. Write a class Employee with parameterized constructors to initialize id, name, designation, and salary. Print the details using a method.
+
+23. Create a class Circle with a field radius. Write a method to calculate area and perimeter. Accept input through constructor.
+
+24. Create a class Book with title, author, and price. Use default and parameterized constructors. Display using a method.
+
+25. Create a class BankAccount with accountNo, holderName, and balance. Write deposit() and withdraw() methods.
+
+26. Write a program using multiple classes: College, Department, and Faculty. Create objects and demonstrate constructor chaining.
+
+27. Create a Product class and show the total cost by using unit price and quantity as constructor parameters.
+
+28. Create a class Rectangle with methods to calculate area and perimeter using constructor inputs for length and width.
+
+29. Create a class Computer with attributes like brand, RAM, and price. Use constructor and display function to print the details.
+
+30. Write a program to create multiple student objects using an array of objects and display each student's information.
+
+🔹 Tasks 31–40: OOP – Inheritance, Polymorphism, Encapsulation
+31. Create a parent class Person and a child class Teacher. Inherit name and age, and add subject and salary. Print full details.
+
+32. Implement single inheritance using Vehicle as the base class and Car as the derived class. Add appropriate fields and methods.
+
+33. Demonstrate multilevel inheritance: Person → Employee → Manager. Each class should add one additional property.
+
+34. Show hierarchical inheritance using classes: Animal → Dog, Animal → Cat. Each class should have its own sound method.
+
+35. Create a class Shape with method area(). Override it in classes Circle and Square. Demonstrate runtime polymorphism.
+
+36. Demonstrate method overloading in a class MathOperations with methods to add integers, doubles, and three numbers.
+
+37. Create a program for a Printer class with overloaded print() methods to handle String, int, and double inputs.
+
+38. Create a class Student with private variables. Use getter and setter methods to implement encapsulation.
+
+39. Create a class Bank with private balance. Use methods to deposit(), withdraw(), and get the balance using encapsulation.
+
+40. Demonstrate constructor overloading in a class Laptop. Create constructors with different sets of parameters (brand, RAM, processor).
+
+Create a custom exception InvalidAgeException if age is below 18.
