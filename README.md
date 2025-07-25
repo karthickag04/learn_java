@@ -4,49 +4,274 @@
 
 ## 🎯 About This Repository
 
-This repository has been **completely reorganized** from the original session-based structure to a **topic-based learning approach**. All content has been:
-- ✅ **Reorganized** into logical learning modules
-- ✅ **Cleaned up** (removed all .class files)
-- ✅ **Enhanced** with comprehensive documentation
-- ✅ **Structured** for progressive learning
+This repository provides a complete Java learning path with organized examples, exercises, and projects. All content is structured progressively from fundamentals to advanced topics.
 
 ## 📚 Course Structure
 
 ### 🚀 [00-setup](./00-setup/)
 **Java Environment Setup**
-- JDK Installation and Configuration  
-- IDE Setup (VS Code, IntelliJ)
-- Your First Java Program
+- `HelloWorld.java` - Your first Java program and environment verification
 
 ### 🔤 [01-fundamentals](./01-fundamentals/)
 **Java Foundation**
-- **[01-syntax](./01-fundamentals/01-syntax/)**: Basic syntax, comments, structure
-- **[02-variables](./01-fundamentals/02-variables/)**: Data types, variables, constants  
-- **[03-operators](./01-fundamentals/03-operators/)**: Arithmetic, logical, relational operators
-- **[04-control-flow](./01-fundamentals/04-control-flow/)**: If-else, loops, switch statements
+
+#### [01-syntax](./01-fundamentals/01-syntax/)
+- `JavaSyntax.java` - Basic Java syntax, comments, and program structure
+- `JavaTokens.java` - Java tokens: keywords, identifiers, literals, operators
+
+#### [02-variables](./01-fundamentals/02-variables/)
+- `JavaVariables.java` - Variable declaration, initialization, and types
+- `JavaDataTypes.java` - Primitive and reference data types with examples
+
+#### [03-operators](./01-fundamentals/03-operators/)
+- `ArithmeticOperators.java` - Addition, subtraction, multiplication, division, modulus
+- `BitwiseOperators.java` - Bitwise operations: AND, OR, XOR, NOT, shifts
+- `LogicalOperators.java` - Logical AND, OR, NOT operators with examples
+- `RelationalOperators.java` - Comparison operators: >, <, >=, <=, ==, !=
+
+#### [04-control-flow](./01-fundamentals/04-control-flow/)
+- `ConditionalStatements.java` - If-else, nested if, ternary operator examples
+- `DoWhileLoopDemo.java` - Do-while loop implementation and usage
+- `ForLoopDemo.java` - For loop variations and array iteration
+- `WhileLoopDemo.java` - While loop examples with different conditions
+
+#### [04-loops](./01-fundamentals/04-loops/)
+- `DoWhileLoopDemo.java` - Advanced do-while loop patterns
+- `ForLoopDemo.java` - Complex for loop implementations
+- `JavaProgram08Std.java` - Method overloading with different parameters
+- `WhileLoopDemo.java` - Advanced while loop examples
 
 ### 📊 [02-arrays-strings](./02-arrays-strings/)
 **Data Structures Basics**
-- **[01-arrays](./02-arrays-strings/01-arrays/)**: Array declaration, manipulation, algorithms
-- **[02-strings](./02-arrays-strings/02-strings/)**: String handling, methods, operations
+
+#### [01-arrays](./02-arrays-strings/01-arrays/)
+- `ArrayWithForLoop.java` - Array manipulation using for loops
+- `ArrayWithWhileLoop.java` - Array processing with while loops
+
+#### [02-strings](./02-arrays-strings/02-strings/)
+- `StringHandling.java` - Basic string operations and methods
+- `StringMethods.java` - Advanced string manipulation techniques
+
+### 🔧 [03-methods](./03-methods/)
+**Modular Programming**
+
+#### [01-basics](./03-methods/01-basics/)
+- `MethodBasics.java` - Method declaration, parameters, and calling
+- `ReturnTypeMethods.java` - Methods with different return types
+- `VoidMethods.java` - Void methods and their applications
+
+#### [02-overloading](./03-methods/02-overloading/)
+- `MethodOverloading.java` - Method overloading with different parameters
+
+#### [03-input-handling](./03-methods/03-input-handling/)
+- `ScannerInput.java` - User input handling with Scanner class
+
+#### Additional Method Examples
+- `AnotherClass.java` - Inter-class method communication
+- `InputScanEx01.java` - Scanner input examples and validation
+- `JavaMethod01.java` - Various method types and return values
+- `JavaMethod02.java` - Arithmetic operations using methods
+- `JavaProg.java` - Method implementation patterns
+- `JavaProg01.java` - Advanced method usage examples
+
+### 🏗️ [04-oop-basics](./04-oop-basics/)
+**Object-Oriented Programming Foundations**
+
+#### [01-classes-objects](./04-oop-basics/01-classes-objects/)
+- `ClassAndObject.java` - Basic class creation and object instantiation
+- `MultipleClasses.java` - Multiple class interaction and method calls
+
+#### [02-constructors](./04-oop-basics/02-constructors/)
+- `ConstructorDemo.java` - Constructor types: default, parameterized, copy
+
+### 🧬 [05-oop-advanced](./05-oop-advanced/)
+**Advanced OOP Concepts**
+
+#### [01-inheritance](./05-oop-advanced/01-inheritance/)
+- `HierarchicalInheritance.java` - One parent, multiple child classes
+- `MultilevelInheritance.java` - Chain of inheritance relationships
+- `SingleInheritance.java` - Basic parent-child inheritance
+
+#### [02-polymorphism](./05-oop-advanced/02-polymorphism/)
+- `MethodOverriding.java` - Runtime polymorphism and method overriding
+- `RuntimePolymorphism.java` - Dynamic method dispatch examples
+
+#### [03-encapsulation](./05-oop-advanced/03-encapsulation/)
+- `EncapsulationDemo.java` - Data hiding with private fields and public methods
+- `GetterSetterMethods.java` - Property access control patterns
+
+#### [04-abstraction](./05-oop-advanced/04-abstraction/)
+- `AbstractClasses.java` - Abstract classes and methods implementation
+- `Interfaces.java` - Interface definition and multiple implementation
+
+#### Additional OOP Examples
+- `AbstractDemo01.java` - Basic abstraction concepts
+- `AbstractDemo02.java` - Advanced abstract class usage
+- `AbstractDemo03.java` - Complex abstraction scenarios
+- `EncapsulationDemo01.java` - Encapsulation with inheritance
+- `EncapsulationDemo01a.java` - Advanced encapsulation patterns
+- `InheritanceDemo01.java` - Inheritance fundamentals
+- `InheritanceDemo01a.java` - Advanced inheritance concepts
+- `InheritanceTypes.java` - All inheritance types demonstration
+- `InterfaceDemo01.java` - Interface implementation examples
+- `PolymorphismDemo01.java` - Basic polymorphism concepts
+- `PolymorphismDemo01a.java` - Advanced polymorphism patterns
+- `PolymorphismDemo01b.java` - Complex polymorphism scenarios
+
+### ⚠️ [06-exception-handling](./06-exception-handling/)
+**Error Handling**
+- `BasicExceptions.java` - Common exception types and handling
+- `CustomExceptions.java` - Creating and using custom exception classes
+- `ExceptionHandling.java` - Try-catch-finally block implementation
+- `ExceptionHandling01.java` - Advanced exception handling patterns
+- `ExceptionList.java` - Comprehensive list of Java exceptions
+- `TryCatchFinally.java` - Exception handling best practices
+
+### 📦 [07-wrapper-classes](./07-wrapper-classes/)
+**Advanced Data Types**
+- `JavaWrapperClassDemo.java` - Wrapper classes and their methods
+- `WrapperDemo.java` - Autoboxing, unboxing, and type conversion
+
+### 🗄️ [08-database](./08-database/)
+**Database Connectivity**
+- `JavaDb.java` - Basic JDBC connection and operations
+- `JDBCConnection.java` - Advanced database connectivity patterns
+
+### 🚀 [09-projects](./09-projects/)
+**Real-World Applications**
+
+#### [01-calculator](./09-projects/01-calculator/)
+- `AdvancedCalculator.java` - GUI calculator with advanced operations
+- `ButtonHandler.java` - Event handling for calculator buttons
+- `CalculatorFrame.java` - Calculator UI framework
+- `CalculatorLogic.java` - Calculator business logic and operations
+- `Main.java` - Application entry point and initialization
+- `SimpleCalculator.java` - Basic calculator implementation
+
+#### [02-gui-applications](./09-projects/02-gui-applications/)
+- `AboutPage.java` - Application about page with GUI components
+- `AdmissionForm.java` - Student admission form with validation
+
+### 📝 [exercises](./exercises/)
+**Practice Makes Perfect**
+- **[beginner](./exercises/beginner/)** - Basic programming exercises
+- **[intermediate](./exercises/intermediate/)** - OOP and advanced concept exercises  
+- **[advanced](./exercises/advanced/)** - Complex problem-solving challenges
+
+### 📖 [resources](./resources/)
+**Additional Learning Materials**
+- Documentation and reference materials for deeper learning
+
+## 🗺️ Recommended Learning Path
+
+### Phase 1: Foundation (Weeks 1-2)
+1. **Setup Environment** → [00-setup](./00-setup/)
+2. **Learn Syntax** → [01-fundamentals/01-syntax](./01-fundamentals/01-syntax/)
+3. **Master Variables** → [01-fundamentals/02-variables](./01-fundamentals/02-variables/)
+4. **Practice Operators** → [01-fundamentals/03-operators](./01-fundamentals/03-operators/)
+5. **Control Flow** → [01-fundamentals/04-control-flow](./01-fundamentals/04-control-flow/)
+
+### Phase 2: Data Handling (Week 3)
+1. **Arrays** → [02-arrays-strings/01-arrays](./02-arrays-strings/01-arrays/)
+2. **Strings** → [02-arrays-strings/02-strings](./02-arrays-strings/02-strings/)
+3. **Practice** → [exercises/beginner](./exercises/beginner/)
+
+### Phase 3: Methods (Week 4)
+1. **Method Basics** → [03-methods/01-basics](./03-methods/01-basics/)
+2. **Method Overloading** → [03-methods/02-overloading](./03-methods/02-overloading/)
+3. **Input Handling** → [03-methods/03-input-handling](./03-methods/03-input-handling/)
+
+### Phase 4: OOP Foundation (Weeks 5-6)
+1. **Classes & Objects** → [04-oop-basics](./04-oop-basics/)
+2. **Constructors** → [04-oop-basics/02-constructors](./04-oop-basics/02-constructors/)
+3. **Practice** → [exercises/intermediate](./exercises/intermediate/)
+
+### Phase 5: Advanced OOP (Weeks 7-8)
+1. **Inheritance** → [05-oop-advanced/01-inheritance](./05-oop-advanced/01-inheritance/)
+2. **Polymorphism** → [05-oop-advanced/02-polymorphism](./05-oop-advanced/02-polymorphism/)
+3. **Encapsulation** → [05-oop-advanced/03-encapsulation](./05-oop-advanced/03-encapsulation/)
+4. **Abstraction** → [05-oop-advanced/04-abstraction](./05-oop-advanced/04-abstraction/)
+
+### Phase 6: Professional Topics (Weeks 9-10)
+1. **Exception Handling** → [06-exception-handling](./06-exception-handling/)
+2. **Wrapper Classes** → [07-wrapper-classes](./07-wrapper-classes/)
+3. **Database Connectivity** → [08-database](./08-database/)
+
+### Phase 7: Projects (Weeks 11-12)
+1. **Calculator Project** → [09-projects/01-calculator](./09-projects/01-calculator/)
+2. **GUI Applications** → [09-projects/02-gui-applications](./09-projects/02-gui-applications/)
+3. **Advanced Challenges** → [exercises/advanced](./exercises/advanced/)
+
+## 🛠️ Quick Start
+
+### Setup (5 minutes)
+```bash
+# Verify Java installation
+java -version
+javac -version
+
+# Clone repository
+git clone https://github.com/karthickag04/learn_java.git
+cd learn_java
+
+# Test your setup
+cd 00-setup
+javac HelloWorld.java
+java HelloWorld
+```
+
+### Daily Learning Routine (30-60 minutes)
+1. **Read** the concept documentation (10 minutes)
+2. **Study** the example code (15 minutes)
+3. **Code** along with examples (20 minutes)
+4. **Practice** with variations (15 minutes)
+
+## 📋 Progress Tracking
+
+### ✅ Completion Checklist
+- [ ] **Environment Setup** - Java and IDE configured
+- [ ] **Fundamentals** - Syntax, variables, operators, control flow
+- [ ] **Data Structures** - Arrays and strings mastered
+- [ ] **Methods** - Function creation and overloading
+- [ ] **OOP Basics** - Classes, objects, constructors
+- [ ] **OOP Advanced** - All four pillars implemented
+- [ ] **Exception Handling** - Error management patterns
+- [ ] **Advanced Topics** - Wrapper classes and database
+- [ ] **Projects** - Real-world applications built
+- [ ] **Practice** - All exercise levels completed
+
+## 🆘 Getting Help
+
+### When You're Stuck:
+1. **Review** the example code and comments
+2. **Check** similar examples in the same section
+3. **Practice** with simpler versions first
+4. **Search** for specific error messages online
+5. **Join** Java programming communities
+
+### Useful Resources:
+- [Oracle Java Documentation](https://docs.oracle.com/en/java/)
+- [Java Tutorials](https://docs.oracle.com/javase/tutorial/)
+- [Stack Overflow Java](https://stackoverflow.com/questions/tagged/java)
+
+## 📈 Repository Features
+
+### ✅ What Makes This Special:
+- **Progressive Structure** - Each topic builds on previous knowledge
+- **Comprehensive Examples** - Real code you can run and modify
+- **Practical Projects** - Build actual applications
+- **Clean Organization** - Easy to navigate and find content
+- **Beginner Friendly** - Starts from absolute basics
+- **Advanced Topics** - Covers professional development concepts
 
 ---
 
-## Session 00: Basics of Java
+## 🎓 Happy Learning!
 
-### Files and Explanations
+Start your Java journey today. Remember: consistency beats perfection. Code a little every day, and you'll be amazed at your progress!
 
-1. **`Java_syntax.java`**
-   - Covers basic Java syntax, including the use of curly braces `{}`, parentheses `()`, and comments.
-   - Includes simple examples of addition and subtraction methods.
-
-2. **`JavaVariables.java`**
-   - Explains different types of variables in Java, including primitive, reference, array, and more.
-   - Demonstrates variable declaration, initialization, and usage.
-
-3. **`Java_data_types.java`**
-   - Explains Java's primitive data types (e.g., `int`, `float`, `boolean`) and their usage.
-   - Demonstrates arrays and their initialization.
+**Current Repository Status:** Main branch contains organized learning structure  
+**Backup:** Original files preserved in `old_main` branch
 
 4. **`JavaOperators.java`**
    - Lists and explains various operators in Java, such as arithmetic, assignment, comparison, logical, and bitwise operators.
