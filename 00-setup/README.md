@@ -42,12 +42,12 @@ Both commands should display version information.
 ## 🛠️ IDE Setup
 
 ### Option 1: Visual Studio Code (Recommended for beginners)
-1. Download from [VS Code Downloads](https://code.visualstudio.com/)
+1. Download the **System Installer** from [VS Code Downloads](https://code.visualstudio.com/) (choose "System Installer" instead of "User Installer" for easier environment variable setup)
 2. Install the Java Extension Pack:
-   - Open VS Code
-   - Go to Extensions (`Ctrl+Shift+X`)
-   - Search for "Java Extension Pack"
-   - Click "Install"
+    - Open VS Code
+    - Go to Extensions (`Ctrl+Shift+X`)
+    - Search for "Java Extension Pack"
+    - Click "Install"
 
 ### Option 2: IntelliJ IDEA
 1. Download from [IntelliJ IDEA Downloads](https://www.jetbrains.com/idea/download/)
