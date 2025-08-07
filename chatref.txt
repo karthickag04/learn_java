@@ -1,2 +1,6 @@
 Java Identifier naming chat ref
 https://chatgpt.com/share/68943597-3fac-800b-9715-c44c884391fd
+
+
+Java Inheritance chat ref
+https://chatgpt.com/share/6894880c-5fd4-800b-98a5-a358821d1c72
