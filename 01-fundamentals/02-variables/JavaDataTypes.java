@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class JavaDataTypes {
     public static void main(String[] args) {
         // Primitive Data Types
@@ -62,69 +64,67 @@ public class JavaDataTypes {
             "Lassi is a refreshing yogurt-based drink, sweet or salted."
         };
 
-
-        
         
         // Printing the values
-        // System.out.println("Byte: " + e);
-        // System.out.println("Short: " + f);
-        // System.out.println("Int: " + a);
-        // System.out.println("Long: " + g);
-        // System.out.println("Float: " + b);
-        // System.out.println("Double: " + h);
-        // System.out.println("Char: " + c);
-        // System.out.println("Boolean: " + d);
-        // System.out.println("String: " + ii);
-        // System.out.println("String: " + i);
+        System.out.println("Byte: " + e);
+        System.out.println("Short: " + f);
+        System.out.println("Int: " + a);
+        System.out.println("Long: " + g);
+        System.out.println("Float: " + b);
+        System.out.println("Double: " + h);
+        System.out.println("Char: " + c);
+        System.out.println("Boolean: " + d);
+        System.out.println("String: " + ii);
+        System.out.println("String: " + i);
         
         
-        // System.out.println("Array: " + java.util.Arrays.toString(j));
+        // System.out.println("Array: " + Arrays.toString(j));
 
 
        
 
-        System.out.println("Short Array: " + java.util.Arrays.toString(shortArray));
-        System.out.println("Int Array: " + java.util.Arrays.toString(intArray));
-        System.out.println("Long Array: " + java.util.Arrays.toString(longArray));
-        System.out.println("Float Array: " + java.util.Arrays.toString(floatArray));
-        System.out.println("Double Array: " + java.util.Arrays.toString(doubleArray));
-        System.out.println("Char Array: " + java.util.Arrays.toString(charArray));
-        System.out.println("Boolean Array: " + java.util.Arrays.toString(booleanArray));
-        System.out.println("String Array: " + java.util.Arrays.toString(stringArray));
+        System.out.println("Short Array: " + Arrays.toString(shortArray));
+        System.out.println("Int Array: " + Arrays.toString(intArray));
+        System.out.println("Long Array: " + Arrays.toString(longArray));
+        System.out.println("Float Array: " + Arrays.toString(floatArray));
+        System.out.println("Double Array: " + Arrays.toString(doubleArray));
+        System.out.println("Char Array: " + Arrays.toString(charArray));
+        System.out.println("Boolean Array: " + Arrays.toString(booleanArray));
+        System.out.println("String Array: " + Arrays.toString(stringArray));
 
-        // System.out.println("String Array for indianFoodArray: " + java.util.Arrays.toString(indianFoodArray));
+        // System.out.println("String Array for indianFoodArray: " + Arrays.toString(indianFoodArray));
 
 
 
         String[] stringUserArray = {"Karthickag04", "Raguvaran01", "Ravi02", "Ramu0007", "Kavin02", "Karthickag02", "Raguvaran012", "Ravi022", "Ramu00027", "Kavin022"};
 
-        // System.out.println("User Array list: " + java.util.Arrays.toString(stringUserArray));
-
+        System.out.println("User Array list: " + Arrays.toString(stringUserArray));
+// 
         System.out.println(stringUserArray.length);
         System.out.println(stringUserArray[0]);
         System.out.println(stringUserArray[1]);
         System.out.println(stringUserArray[2]);
-        System.out.println(stringUserArray[3]);
-        System.out.println(stringUserArray[4]);
-        System.out.println(stringUserArray[5]);
-        System.out.println(stringUserArray[6]);
-        System.out.println(stringUserArray[7]);
-        System.out.println(stringUserArray[8]);
-        System.out.println(stringUserArray[9]);
-        System.out.println("*****************************");
-        System.out.println("*****************************");
-        System.out.println("*****************************");
-        System.out.println("*****************************");
+        // System.out.println(stringUserArray[3]);
+        // System.out.println(stringUserArray[4]);
+        // System.out.println(stringUserArray[5]);
+        // System.out.println(stringUserArray[6]);
+        // System.out.println(stringUserArray[7]);
+        // System.out.println(stringUserArray[8]);
+        // System.out.println(stringUserArray[9]);
+        // System.out.println("*****************************");
+        // System.out.println("*****************************");
+        // System.out.println("*****************************");
+        // System.out.println("*****************************");
         
-        // Printing individual elements of byteArray using indices
-        for (int startpoint = 0; startpoint < stringUserArray.length; startpoint++) {
-            System.out.println(stringUserArray[startpoint]);
-        }
+        // // Printing individual elements of byteArray using indices
+        // for (int startpoint = 0; startpoint < stringUserArray.length; startpoint++) {
+        //     System.out.println(stringUserArray[startpoint]);
+        // }
 
-        System.out.println("*****************************");
-        System.out.println("*****************************");
-        System.out.println("*****************************");
-        System.out.println("*****************************");
+        // System.out.println("*****************************");
+        // System.out.println("*****************************");
+        // System.out.println("*****************************");
+        // System.out.println("*****************************");
         
         // Printing individual elements of stringUserArray using indices
         for (int startpoint = 0; startpoint < stringUserArray.length; startpoint++) {

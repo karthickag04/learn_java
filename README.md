@@ -35,11 +35,7 @@ This repository provides a complete Java learning path with organized examples, 
 - `ForLoopDemo.java` - For loop variations and array iteration
 - `WhileLoopDemo.java` - While loop examples with different conditions
 
-#### [04-loops](./01-fundamentals/04-loops/)
-- `DoWhileLoopDemo.java` - Advanced do-while loop patterns
-- `ForLoopDemo.java` - Complex for loop implementations
-- `JavaProgram08Std.java` - Method overloading with different parameters
-- `WhileLoopDemo.java` - Advanced while loop examples
+
 
 ### 📊 [02-arrays-strings](./02-arrays-strings/)
 **Data Structures Basics**
@@ -129,8 +125,7 @@ This repository provides a complete Java learning path with organized examples, 
 
 ### 📦 [07-wrapper-classes](./07-wrapper-classes/)
 **Advanced Data Types**
-- `JavaWrapperClassDemo.java` - Wrapper classes and their methods
-- `WrapperDemo.java` - Autoboxing, unboxing, and type conversion
+- `JavaWrapperClassDemo.java` - Wrapper classes, autoboxing, unboxing, and type conversion
 
 ### 🗄️ [08-database](./08-database/)
 **Database Connectivity**

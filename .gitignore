@@ -1,5 +1,8 @@
 # Java Learning - Gitignore
 
+# Documentation files to exclude
+STRUCTURE_SUMMARY.md
+
 # Compiled class files
 *.class
 
