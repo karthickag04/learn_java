@@ -25,5 +25,11 @@ public class LogicalOperators {
         System.out.println("str1 equals 'hello' and str2 equals 'world': " + (str1.equals("hello") && str2.equals("world")));
         // Check if either string is equal to "hello"
         System.out.println("Either string equals 'hello': " + (str1.equals("hello") || str2.equals("hello")));
+    
+    
+        // Ternary Operator with Relational operator
+        String result = (x == y) ? "Yes the given values are Equal " : "No the given values are not equal";
+        System.out.println("Result : " + result );
+    
     }
 }
