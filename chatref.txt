@@ -7,3 +7,6 @@ https://chatgpt.com/share/6894880c-5fd4-800b-98a5-a358821d1c72
 
 Java Collections complete walk through with chat
 https://chatgpt.com/share/68a3095e-04fc-800b-8c2a-e6351f8b2086
+
+Utility Class in Java
+https://chatgpt.com/share/68a6f5ab-cdd8-800b-a551-bdd6704f60fc
