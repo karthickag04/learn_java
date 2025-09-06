@@ -13,3 +13,5 @@ https://chatgpt.com/share/68a6f5ab-cdd8-800b-a551-bdd6704f60fc
 
 Multi threading chat ref
 https://chatgpt.com/share/68b03884-c8bc-800b-b974-d47542d6b7a5
+Multi threading chat ref updated with stringbuffer/builder
+https://chatgpt.com/share/68bc14d9-9f2c-800b-9eee-8c185890f0d1
