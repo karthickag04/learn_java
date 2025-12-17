@@ -1,32 +1,105 @@
-public class ConditionalStatements {
-    public static void main(String[] args) {
-        int number = 15;
+public class ConditionalStatements{
+    public static void main(String[] inputs){
 
-        // if-else condition
-        if (number > 0) {
-            System.out.println("The number is positive.");
-        } else if (number < 0) {
-            System.out.println("The number is negative.");
-        } else {
-            System.out.println("The number is zero.");
+        int x = 20;
+        int y = 10;
+        System.out.println("x is " + x + " and y is " + y);
+        System.out.println(x > y);
+        System.out.println("********************************");
+        System.out.println("********************************");
+        System.out.println("********************************");
+
+        if(x > y){
+            System.out.println("x is greater than y");
+        }
+        else {
+            System.out.println("x is not greater than y");
         }
 
-        // Nested if
-        if (number != 0) {
-            if (number % 2 == 0) {
-            System.out.println("It is an even number.");
-            } else {
-            System.out.println("It is an odd number.");
+        System.out.println("********************************");
+        System.out.println("********************************");
+        System.out.println("********************************");
+
+        if(x > y){
+            System.out.println("x is greater than y");
+        }
+        else if(x == y){
+            System.out.println("x is equal to y");
+        }
+        else {
+            System.out.println("x is not greater than y");
+        }
+        System.out.println("********************************");
+        System.out.println("********************************");
+        System.out.println("Nested if example:");
+        System.out.println("********************************");
+
+        if(x > y){
+            if(x - y > 5){
+                System.out.println("x is greater than y by more than 5");
             }
-        } else {
-            System.out.println("The number is zero, so it is neither even nor odd.");
+            else {
+                System.out.println("x is greater than y by 5 or less");
+            }
         }
-
-        // Ternary Operator
-        String result = (number > 10  ) ? "Greater than 10" : "10 or less";
-        System.out.println("Ternary check: " + result);
+        else if(x == y){
+            System.out.println("x is equal to y");
+        }
+        else {
+            System.out.println("x is not greater than y");
+        }
     }
 }
+
+
+
+
+
+// public class ConditionalStatements {
+//     public static void main(String[] args) {
+//         int number = 15;
+
+//         // if-else condition
+//         if (number > 0) {
+//             System.out.println("The number is positive.");
+//         } else if (number < 0) {
+//             System.out.println("The number is negative.");
+//         } else {
+//             System.out.println("The number is zero.");
+//         }
+
+//         // Nested if
+//         if (number != 0) {
+//             if (number % 2 == 0) {
+//             System.out.println("It is an even number.");
+//             } else {
+//             System.out.println("It is an odd number.");
+//             }
+//         } else {
+//             System.out.println("The number is zero, so it is neither even nor odd.");
+//         }
+
+//         // Ternary Operator
+//         String result = (number > 10  ) ? "Greater than 10" : "10 or less";
+//         System.out.println("Ternary check: " + result);
+//     }
+// }
+
+
+// public class ConditionalStatements {
+//     public static void main(String[] args) {
+//         int number = 100;
+
+//         // switch condition (rule switch)
+//         switch (number) {
+//             case 10 -> System.out.println("The number is ten.");
+//             case 15 -> System.out.println("The number is fifteen.");
+//             case 20 -> System.out.println("The number is twenty.");
+//             default -> System.out.println("The number is neither ten, fifteen, nor twenty.");
+//         }
+        
+//     }
+// }
 
 
 
