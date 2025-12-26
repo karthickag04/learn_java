@@ -1,55 +1,178 @@
-public class ConditionalStatements{
-    public static void main(String[] inputs){
+// public class ConditionalStatements{
+//     public static void main(String[] args) {
+//         int StudentTotal= 325;
+//         int RequiredTotal = 415;
+//         String StudentCommunity = "Ch";
+//         int StudentMathMarks = 145;
 
-        int x = 20;
-        int y = 10;
-        System.out.println("x is " + x + " and y is " + y);
-        System.out.println(x > y);
-        System.out.println("********************************");
-        System.out.println("********************************");
-        System.out.println("********************************");
+//         System.out.println(StudentTotal > RequiredTotal);
+//         System.out.println(StudentTotal > RequiredTotal && StudentTotal == 415);
+       
+       
+//         if (StudentTotal >= RequiredTotal) {
 
-        if(x > y){
-            System.out.println("x is greater than y");
-        }
-        else {
-            System.out.println("x is not greater than y");
-        }
+//             if( StudentMathMarks >= 140 ) {
+//                 System.out.println("StudentTotal is greater than RequiredTotal and Math marks are also good, we can admit the student");
+//             }
+//             else {
+//                 System.out.println("StudentTotal is greater than RequiredTotal but Math marks are less, we need to re-evaluate");
+//             }
+//             // System.out.println("StudentTotal is greater than RequiredTotal and we can admit the student");
+//         }    
+//         else if (StudentTotal < RequiredTotal && StudentTotal >= 300 && StudentCommunity.equals("Ch") ) {
+//             System.out.println("StudentTotal is less than RequiredTotal and we can keep them under waiting list");
+//         }    
+//         else if (StudentTotal < RequiredTotal && StudentTotal >= 300 && StudentCommunity.equals("Ch") ) {
+//             System.out.println("StudentTotal is less than RequiredTotal and we can keep them under waiting list");
+//         }    
+//         else {
+//             if(StudentCommunity.equals("Ch")) {
+//                 System.out.println("StudentTotal is less than RequiredTotal and from Ch community, we can keep them under waiting list");
+//             }
+//             System.out.println("StudentTotal is less than RequiredTotal and we cannot admit the student");
+//         }
 
-        System.out.println("********************************");
-        System.out.println("********************************");
-        System.out.println("********************************");
 
-        if(x > y){
-            System.out.println("x is greater than y");
-        }
-        else if(x == y){
-            System.out.println("x is equal to y");
-        }
-        else {
-            System.out.println("x is not greater than y");
-        }
-        System.out.println("********************************");
-        System.out.println("********************************");
-        System.out.println("Nested if example:");
-        System.out.println("********************************");
+//         System.out.println("********************************");
+//         System.out.println("********************************");
+//         System.out.println("********************************");
+//         System.out.println("********************************");
 
-        if(x > y){
-            if(x - y > 5){
-                System.out.println("x is greater than y by more than 5");
-            }
-            else {
-                System.out.println("x is greater than y by 5 or less");
-            }
-        }
-        else if(x == y){
-            System.out.println("x is equal to y");
-        }
-        else {
-            System.out.println("x is not greater than y");
-        }
-    }
-}
+//         // Ternary Operator
+//         String result = (StudentTotal >= RequiredTotal) ? "Eligible for admission" : "Not eligible for admission";
+//         System.out.println("Ternary check: " + result);
+
+//         // Ternary Operator
+//         String result_01 = (StudentTotal >= RequiredTotal) ? (StudentCommunity == "Ch" ? "Eligible for admission" : "Not eligible for admission") : "Not eligible for admission";
+//         System.out.println("Ternary check: " + result_01);
+    
+    
+//     }
+// }
+
+
+
+
+
+
+// public class ConditionalStatements{
+//     public static void main(String[] args) {
+//         int number = 10;
+
+//         // switch condition (rule switch)
+//         switch (number) {
+//             case 10 -> System.out.println("The number is ten.");
+//             case 's' -> System.out.println("The letter is s.");
+//             case 20 -> System.out.println("The number is twenty.");
+//             default -> System.out.println("The number is neither ten, fifteen, nor twenty.");
+//         }
+        
+//     }
+// }
+
+
+
+// public class ConditionalStatements {
+//     public static void main(String[] args) {
+//         Random rand = new Random();
+//         int number = rand.nextInt(20); // generates a random int from 0 to 19
+
+//         System.out.println("Random number generated: " + number);
+
+//         // switch condition with 20 cases (0 to 19)
+//         switch (number) {
+//             case 0 -> System.out.println("Case 0: Zero");
+//             case 1 -> System.out.println("Case 1: One");
+//             case 2 -> System.out.println("Case 2: Two");
+//             case 3 -> System.out.println("Case 3: Three");
+//             case 4 -> System.out.println("Case 4: Four");
+//             case 5 -> System.out.println("Case 5: Five");
+//             case 6 -> System.out.println("Case 6: Six");
+//             case 7 -> System.out.println("Case 7: Seven");
+//             case 8 -> System.out.println("Case 8: Eight");
+//             case 9 -> System.out.println("Case 9: Nine");
+//             case 10 -> System.out.println("Case 10: Ten");
+//             case 11 -> System.out.println("Case 11: Eleven");
+//             case 12 -> System.out.println("Case 12: Twelve");
+//             case 13 -> System.out.println("Case 13: Thirteen");
+//             case 14 -> System.out.println("Case 14: Fourteen");
+//             case 15 -> System.out.println("Case 15: Fifteen");
+//             case 16 -> System.out.println("Case 16: Sixteen");
+//             case 17 -> System.out.println("Case 17: Seventeen");
+//             case 18 -> System.out.println("Case 18: Eighteen");
+//             case 19 -> System.out.println("Case 19: Nineteen");
+//             default -> System.out.println("This should never happen.");
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// public class ConditionalStatements{
+//     public static void main(String[] inputs){
+
+//         int x = 20;
+//         int y = 10;
+//         System.out.println("x is " + x + " and y is " + y);
+//         System.out.println(x > y);
+//         System.out.println("********************************");
+//         System.out.println("********************************");
+//         System.out.println("********************************");
+
+//         if(x > y){
+//             System.out.println("x is greater than y");
+//         }
+//         else {
+//             System.out.println("x is not greater than y");
+//         }
+
+//         System.out.println("********************************");
+//         System.out.println("********************************");
+//         System.out.println("********************************");
+
+//         if(x > y){
+//             System.out.println("x is greater than y");
+//         }
+//         else if(x == y){
+//             System.out.println("x is equal to y");
+//         }
+//         else {
+//             System.out.println("x is not greater than y");
+//         }
+//         System.out.println("********************************");
+//         System.out.println("********************************");
+//         System.out.println("Nested if example:");
+//         System.out.println("********************************");
+
+//         if(x > y){
+//             if(x - y > 5){
+//                 System.out.println("x is greater than y by more than 5");
+//             }
+//             else {
+//                 System.out.println("x is greater than y by 5 or less");
+//             }
+//         }
+//         else if(x == y){
+//             System.out.println("x is equal to y");
+//         }
+//         else {
+//             System.out.println("x is not greater than y");
+//         }
+//     }
+// }
 
 
 
