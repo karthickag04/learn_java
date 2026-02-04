@@ -1,3 +1,147 @@
+
+// public class ConditionalStatements{
+//     public static void main(String[] args) {
+//         String number = "added";
+//         switch (number) {
+//             case "added": // String case not allowed in switch for int variable
+//                 System.out.println("number is 20");
+//                 break;
+//             case "30":
+//                 System.out.println("number is 30");
+//                 break;
+//             case "40":
+//                 System.out.println("number is 40");
+//                 break;
+//             default:
+//                 throw new AssertionError();
+//         }
+
+
+// }
+// }
+
+
+
+
+
+// public class ConditionalStatements{
+//     public static void main(String[] args) {
+//         int number = 30;
+//         String result = (number == 20) ? "number is 20" : (number > 20) ? "number is greater than 20" : "number is not 20";
+//         System.out.println(result);
+
+//     }
+// }
+
+
+
+
+
+// public class ConditionalStatements{
+//     public static void main(String[] args) {
+//         int number = 30;
+//         String result = (number == 20) ? "number is 20" : (number > 20) ? "number is greater than 20" : "number is not 20";
+//         System.out.println(result);
+//         // // System.out.println(number == 20 && number < 30);
+//         // if( number == 20)
+//         // {
+//         //   System.out.println("number is 20");  
+//         // }
+//         // else if (number > 20){
+//         //     System.out.println("number is greater than 20");
+//         // }
+//         // else if (number > 20){
+//         //     System.out.println("number is greater than 20");
+//         // }
+//         // else if (number > 20){
+//         //     System.out.println("number is greater than 20");
+//         // }
+//         // else if (number > 20){
+//         //     System.out.println("number is greater than 20");
+//         // }
+//         // else{
+//         //     System.out.println("number is not 20");
+//         // }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import java.util.Scanner;
+
+
+// public class ConditionalStatements{
+//     public static void main(String[] args) {
+
+//         String userNameFromDb = "Ravi";
+//         String passwordFromDb = "R@123";
+
+        
+//         // String userNameGivenByUser = "Ravi";
+//         // String passwordGivenByUser = "R@1231";
+
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.println("Enter the username : ");
+//         String userNameGivenByUser = input.nextLine();
+//         System.out.println("Enter the password:");
+//         String passwordGivenByUser = input.nextLine();
+
+//         System.out.println(userNameGivenByUser);
+//         System.out.println(passwordGivenByUser);
+
+
+//         // if(userNameFromDb.equals(userNameGivenByUser)){
+//         //     System.out.println("username matched");
+            
+//         //     if (passwordFromDb.equals(passwordGivenByUser)) {
+//         //         System.out.println("yes both passwords matched");
+//         //     }
+//         //     else{
+//         //         System.out.println("Passwords not matched");
+//         //     }
+
+//         // }
+
+//         // // else if(userNameFromDb == "Ravi"){
+//         // //     System.out.println("username matched but with Ravi");
+
+//         // // }
+        
+//         // else{
+//         //     System.out.println("username not matched");
+//         // }
+
+//         String result = (userNameFromDb.equals(userNameGivenByUser)) ? ((passwordFromDb.equals(passwordGivenByUser)) ? "username matched and checked the password then Password also matched" : "password not matched") : ("Username not matched so unbale to check password");
+//         System.out.println(result);
+
+        
+//     }
+// }
+
+
+
+
 // public class ConditionalStatements{
 //     public static void main(String[] args) {
 //         int StudentTotal= 325;
@@ -57,18 +201,46 @@
 
 // public class ConditionalStatements{
 //     public static void main(String[] args) {
+        
 //         int number = 10;
 
 //         // switch condition (rule switch)
 //         switch (number) {
-//             case 10 -> System.out.println("The number is ten.");
-//             case 's' -> System.out.println("The letter is s.");
-//             case 20 -> System.out.println("The number is twenty.");
-//             default -> System.out.println("The number is neither ten, fifteen, nor twenty.");
+//             case 10 : {
+//                 System.out.println("The number is ten.");
+//                 break;
+//             }
+//             case 's' : {
+//                 System.out.println("The number is ten.");
+//                 break;
+//             }
+//             case 11 : {
+//                 System.out.println("The number is ten.");
+//                 break;
+//             }
+            
 //         }
         
 //     }
 // }
+
+
+
+public class ConditionalStatements{
+    public static void main(String[] args) {
+        
+        int number = 10;
+
+        // switch condition (rule switch)
+        switch (number) {
+            case 10 -> System.out.println("The number is ten.");
+            case 's' -> System.out.println("The letter is s.");
+            case 20 -> System.out.println("The number is twenty.");
+            default -> System.out.println("The number is neither ten, fifteen, nor twenty.");
+        }
+        
+    }
+}
 
 
 
