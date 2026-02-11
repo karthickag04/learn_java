@@ -1,2 +1,6 @@
-javac -cp .;mysql-connector-j-9.6.0.jar JavaDb.java
+javac -cp .;mysql-connector-j-9.6.0.jar JavaDb.java DbCrud.java
+java  -cp .;mysql-connector-j-9.6.0.jar JavaDb
+
+
+javac -cp .;mysql-connector-j-9.6.0.jar JavaDb.java DbCrud.java
 java  -cp .;mysql-connector-j-9.6.0.jar JavaDb

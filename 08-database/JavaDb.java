@@ -1,65 +1,71 @@
-import java.sql.*;
+import java.util.Scanner;
 
 public class JavaDb {
 
-    // Database credentials
-    static final String JDBC_URL = "jdbc:mysql://localhost:3306/test_db"; // Modify if necessary
-    static final String JDBC_USER = "test01"; // Your MySQL username
-    static final String JDBC_PASSWORD = "test@123"; // Your MySQL password
-
     public static void main(String[] args) {
-        // Declare connection objects
-        Connection conn = null;
-        Statement stmt = null;
-        ResultSet rs = null;
+        DbCrud db = new DbCrud();
+        Scanner scanner = new Scanner(System.in);
+        boolean running = true;
 
-        try {
-            // Step 1: Register JDBC driver
-            Class.forName("com.mysql.cj.jdbc.Driver"); // Load MySQL JDBC driver
+        System.out.println("=== Database Editing & Modification Program ===");
 
-            // Step 2: Open a connection
-            System.out.println("Connecting to the database...");
-            conn = DriverManager.getConnection(JDBC_URL, JDBC_USER, JDBC_PASSWORD);
+        while (running) {
+            System.out.println("\n1. Add Student");
+            System.out.println("2. View All Students");
+            System.out.println("3. Update Student");
+            System.out.println("4. Delete Student");
+            System.out.println("5. Add Random Student (Test)");
+            System.out.println("6. Exit");
+            System.out.print("Choose an option: ");
 
-            // Step 3: Create a statement
-            stmt = conn.createStatement();
-
-            // Step 4: Execute a query
-            String sql = "SELECT id, name, email FROM users";
-            rs = stmt.executeQuery(sql);
-
-            // Step 5: Extract data from the result set
-            System.out.println("ID\tName\t\tEmail");
-            while (rs.next()) {
-                // Retrieve by column name
-                int id = rs.getInt("id");
-                String name = rs.getString("name");
-                String email = rs.getString("email");
-
-                // Display the results
-                System.out.println(id + "\t" + name + "\t" + email);
+            int choice = -1;
+            if (scanner.hasNextInt()) {
+                choice = scanner.nextInt();
+                scanner.nextLine(); // Consume newline
+            } else {
+                scanner.nextLine(); // Consume invalid input
+                System.out.println("Invalid input. Please enter a number.");
+                continue;
             }
-        } catch (SQLException se) {
-            // Handle JDBC errors
-            se.printStackTrace();
-        } catch (Exception e) {
-            // Handle other errors
-            e.printStackTrace();
-        } finally {
-            // Step 6: Clean up
-            try {
-                if (rs != null) {
-                    rs.close();
-                }
-                if (stmt != null) {
-                    stmt.close();
-                }
-                if (conn != null) {
-                    conn.close();
-                }
-            } catch (SQLException se) {
-                se.printStackTrace();
+
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter Name: ");
+                    String name = scanner.nextLine();
+                    System.out.print("Enter Email: ");
+                    String email = scanner.nextLine();
+                    db.addStudent(name, email);
+                    break;
+                case 2:
+                    db.getAllStudents();
+                    break;
+                case 3:
+                    System.out.print("Enter Student ID to update: ");
+                    int updateId = scanner.nextInt();
+                    scanner.nextLine(); // Consume newline
+                    System.out.print("Enter New Name: ");
+                    String newName = scanner.nextLine();
+                    System.out.print("Enter New Email: ");
+                    String newEmail = scanner.nextLine();
+                    db.updateStudent(updateId, newName, newEmail);
+                    break;
+                case 4:
+                    System.out.print("Enter Student ID to delete: ");
+                    int deleteId = scanner.nextInt();
+                    scanner.nextLine(); // Consume newline
+                    db.deleteStudent(deleteId);
+                    break;
+                case 5:
+                    db.addRandomStudent();
+                    break;
+                case 6:
+                    running = false;
+                    System.out.println("Exiting program. Goodbye!");
+                    break;
+                default:
+                    System.out.println("Invalid option. Try again.");
             }
         }
+        scanner.close();
     }
 }

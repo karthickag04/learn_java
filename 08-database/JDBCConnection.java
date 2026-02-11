@@ -3,9 +3,9 @@ import java.sql.*;
 public class JDBCConnection {
 
     // Database credentials
-    static final String JDBC_URL = "jdbc:mysql://localhost:3306/test_db"; // Modify if necessary
+    static final String JDBC_URL = "jdbc:mysql://localhost:3306/schooldb"; // Modify if necessary
     static final String JDBC_USER = "test01"; // Your MySQL username
-    static final String JDBC_PASSWORD = "test@123"; // Your MySQL password
+    static final String JDBC_PASSWORD = "Test@123p"; // Your MySQL password
 
     public static void main(String[] args) {
         // Declare connection objects
@@ -25,7 +25,7 @@ public class JDBCConnection {
             stmt = conn.createStatement();
 
             // Step 4: Execute a query
-            String sql = "SELECT id, name, email FROM users";
+            String sql = "SELECT * FROM students"; // Modify table name if necessary
             rs = stmt.executeQuery(sql);
 
             // Step 5: Extract data from the result set
