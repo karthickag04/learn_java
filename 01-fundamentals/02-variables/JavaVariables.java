@@ -9,7 +9,7 @@ public class JavaVariables {
         // short: 16-bit signed (-32,768 to 32,767)
         short shortVar = 20;
         // int: 32-bit signed (-2,147,483,648 to 2,147,483,647)
-        int intVar = 30;
+        int intVar = 33;
         // long: 64-bit signed (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
         long longVar = 40L;
         // float: 32-bit IEEE 754 floating point
@@ -26,6 +26,7 @@ public class JavaVariables {
         // 2. Reference Variables
         // String: Reference type to sequence of characters (no fixed size, can be null)
         String stringVar1 = "Hello, World!";
+
         String stringVar = """
         Hello, World!
         This is a multi-line string.
@@ -33,10 +34,12 @@ public class JavaVariables {
         You can also use it to format text with indentation and line breaks.
         You can use it to write long text without worrying about line breaks.
                 """;
+
         // Integer: Wrapper class for int (null-safe, range same as int: -2,147,483,648 to 2,147,483,647)
-        Integer integerVar = 10;
+        Integer integerVar = null;
         // Double: Wrapper class for double (null-safe, range same as double)
         Double doubleVarRef = 20.5d;
+        
 
 
 
@@ -131,3 +134,10 @@ public class JavaVariables {
 // Bad variable name: `FirstName` (PascalCase)
 // Bad variable name: `FIRST_NAME` (all caps)
 // Bad variable name: `fn` (single-letter variable name)
+
+// Additional variable naming instructions:
+// - Use underscores (_) in variable names if needed, but prefer camelCase.
+// - Do not start variable names with numbers.
+// - Avoid using symbols (like @, #, etc.) in variable names.
+
+
