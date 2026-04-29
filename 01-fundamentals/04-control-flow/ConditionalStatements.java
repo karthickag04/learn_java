@@ -1,19 +1,51 @@
 
 // public class ConditionalStatements{
 //     public static void main(String[] args) {
-//         String number = "added";
+//         // if - else condition
+//         // switch condition
+//         // ternary operator
+
+//         int age = 30;
+//         String location = "Tamilnadu";
+
+//         if (age >= 18 && location == "Tamilnadu") {
+//             System.out.println("age is eligible to vote");
+            
+//         }
+//         else if (age >= 18 && location != "Tamilnadu") {
+//             System.out.println("age is eligible to vote but location is not Tamilnadu so look for other state rules");
+//         }
+        
+//        else{
+//            if (age < 18){
+//                System.out.println("age is not eligible to vote");
+//            }
+//            else {
+//                System.out.println("age is eligible to vote but location is not Tamilnadu");
+//            }
+//         }
+
+//     }
+// }
+
+
+
+
+// public class ConditionalStatements{
+//     public static void main(String[] args) {
+//         int number = 30;
 //         switch (number) {
-//             case "added": // String case not allowed in switch for int variable
+//             case 20: // String case not allowed in switch for int variable
 //                 System.out.println("number is 20");
 //                 break;
-//             case "30":
-//                 System.out.println("number is 30");
+//             case 44:
+//                 System.out.println("number is 44");
 //                 break;
-//             case "40":
-//                 System.out.println("number is 40");
+//             case 77:
+//                 System.out.println("number is 77");
 //                 break;
 //             default:
-//                 throw new AssertionError();
+//                 System.out.println("number is not 20, 44, or 77");
 //         }
 
 
@@ -226,57 +258,57 @@
 
 
 
-public class ConditionalStatements{
-    public static void main(String[] args) {
-        
-        int number = 10;
-
-        // switch condition (rule switch)
-        switch (number) {
-            case 10 -> System.out.println("The number is ten.");
-            case 's' -> System.out.println("The letter is s.");
-            case 20 -> System.out.println("The number is twenty.");
-            default -> System.out.println("The number is neither ten, fifteen, nor twenty.");
-        }
-        
-    }
-}
-
-
-
-// public class ConditionalStatements {
+// public class ConditionalStatements{
 //     public static void main(String[] args) {
-//         Random rand = new Random();
-//         int number = rand.nextInt(20); // generates a random int from 0 to 19
+        
+//         int number = 10;
 
-//         System.out.println("Random number generated: " + number);
-
-//         // switch condition with 20 cases (0 to 19)
+//         // switch condition (rule switch)
 //         switch (number) {
-//             case 0 -> System.out.println("Case 0: Zero");
-//             case 1 -> System.out.println("Case 1: One");
-//             case 2 -> System.out.println("Case 2: Two");
-//             case 3 -> System.out.println("Case 3: Three");
-//             case 4 -> System.out.println("Case 4: Four");
-//             case 5 -> System.out.println("Case 5: Five");
-//             case 6 -> System.out.println("Case 6: Six");
-//             case 7 -> System.out.println("Case 7: Seven");
-//             case 8 -> System.out.println("Case 8: Eight");
-//             case 9 -> System.out.println("Case 9: Nine");
-//             case 10 -> System.out.println("Case 10: Ten");
-//             case 11 -> System.out.println("Case 11: Eleven");
-//             case 12 -> System.out.println("Case 12: Twelve");
-//             case 13 -> System.out.println("Case 13: Thirteen");
-//             case 14 -> System.out.println("Case 14: Fourteen");
-//             case 15 -> System.out.println("Case 15: Fifteen");
-//             case 16 -> System.out.println("Case 16: Sixteen");
-//             case 17 -> System.out.println("Case 17: Seventeen");
-//             case 18 -> System.out.println("Case 18: Eighteen");
-//             case 19 -> System.out.println("Case 19: Nineteen");
-//             default -> System.out.println("This should never happen.");
+//             case 10 -> System.out.println("The number is ten.");
+//             case 's' -> System.out.println("The letter is s.");
+//             case 20 -> System.out.println("The number is twenty.");
+//             default -> System.out.println("The number is neither ten, fifteen, nor twenty.");
 //         }
+        
 //     }
 // }
+
+
+
+public class ConditionalStatements {
+    public static void main(String[] args) {
+        
+        int number = 3; // generates a random int from 0 to 19
+
+        System.out.println("Random number generated: " + number);
+
+        // switch condition with 20 cases (0 to 19)
+        switch (number) {
+            case 0 -> System.out.println("Case 0: Zero");
+            case 1 -> System.out.println("Case 1: One");
+            case 2 -> System.out.println("Case 2: Two");
+            case 3 -> System.out.println("Case 3: Three");
+            case 4 -> System.out.println("Case 4: Four");
+            case 5 -> System.out.println("Case 5: Five");
+            case 6 -> System.out.println("Case 6: Six");
+            case 7 -> System.out.println("Case 7: Seven");
+            case 8 -> System.out.println("Case 8: Eight");
+            case 9 -> System.out.println("Case 9: Nine");
+            case 10 -> System.out.println("Case 10: Ten");
+            case 11 -> System.out.println("Case 11: Eleven");
+            case 12 -> System.out.println("Case 12: Twelve");
+            case 13 -> System.out.println("Case 13: Thirteen");
+            case 14 -> System.out.println("Case 14: Fourteen");
+            case 15 -> System.out.println("Case 15: Fifteen");
+            case 16 -> System.out.println("Case 16: Sixteen");
+            case 17 -> System.out.println("Case 17: Seventeen");
+            case 18 -> System.out.println("Case 18: Eighteen");
+            case 19 -> System.out.println("Case 19: Nineteen");
+            default -> System.out.println("This should never happen.");
+        }
+    }
+}
 
 
 
