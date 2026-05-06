@@ -22,6 +22,15 @@ public class PatternCreationWithLoop {
 
         System.out.println("\nPattern 7: Hollow Square");
         printHollowSquare(5);
+
+        System.out.println("\nPattern 8: Right-aligned Triangle");
+        printRightAlignedTriangle(5);
+
+        System.out.println("\nPattern 9: Alternating Star Rectangle");
+        printAlternatingRectangle(5, 10);
+
+        System.out.println("\nPattern 10: Hollow Pyramid");
+        printHollowPyramid(5);
     }
 
     /**
@@ -78,9 +87,9 @@ public class PatternCreationWithLoop {
 
     /**
      * Prints a pyramid pattern:
-     *     *
-     *    ***
-     *   *****
+     * *
+     * ***
+     * *****
      */
     public static void printPyramid(int rows) {
         for (int i = 1; i <= rows; i++) {
@@ -102,14 +111,18 @@ public class PatternCreationWithLoop {
     public static void printDiamond(int rows) {
         // Upper part
         for (int i = 1; i <= rows; i++) {
-            for (int j = 1; j <= rows - i; j++) System.out.print(" ");
-            for (int j = 1; j <= (2 * i - 1); j++) System.out.print("*");
+            for (int j = 1; j <= rows - i; j++)
+                System.out.print(" ");
+            for (int j = 1; j <= (2 * i - 1); j++)
+                System.out.print("*");
             System.out.println();
         }
         // Lower part
         for (int i = rows - 1; i >= 1; i--) {
-            for (int j = 1; j <= rows - i; j++) System.out.print(" ");
-            for (int j = 1; j <= (2 * i - 1); j++) System.out.print("*");
+            for (int j = 1; j <= rows - i; j++)
+                System.out.print(" ");
+            for (int j = 1; j <= (2 * i - 1); j++)
+                System.out.print("*");
             System.out.println();
         }
     }
@@ -142,6 +155,62 @@ public class PatternCreationWithLoop {
                 } else {
                     System.out.print(" ");
                 }
+            }
+            System.out.println();
+        }
+    }
+
+    /**
+     * Prints a right-aligned triangle pattern.
+     */
+    public static void printRightAlignedTriangle(int rows) {
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= rows - i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    /**
+     * Prints an alternating star rectangle pattern.
+     */
+    public static void printAlternatingRectangle(int rows, int cols) {
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= cols; j++) {
+                if ((i + j) % 2 == 0) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    /**
+     * Prints a hollow pyramid pattern.
+     */
+    public static void printHollowPyramid(int rows) {
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= rows - i; j++) {
+                System.out.print(" ");
+            }
+            if (i == 1) {
+                System.out.print("*");
+            } else if (i == rows) {
+                for (int j = 1; j <= (2 * rows - 1); j++) {
+                    System.out.print("*");
+                }
+            } else {
+                System.out.print("*");
+                for (int j = 1; j <= (2 * i - 3); j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
             }
             System.out.println();
         }
