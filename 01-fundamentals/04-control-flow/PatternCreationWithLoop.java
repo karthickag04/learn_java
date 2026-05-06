@@ -2,35 +2,35 @@ public class PatternCreationWithLoop {
     public static void main(String[] args) {
         System.out.println("--- Basic Patterns ---");
         System.out.println("Pattern 1: Right-angled Triangle (for)");
-        printRightTriangle(5);
+        // printRightTriangle(5);
 
         System.out.println("\nPattern 2: Inverted Triangle (while)");
-        printInvertedTriangle(5);
+        // printInvertedTriangle(5);
 
-        System.out.println("\nPattern 3: Square Pattern (do-while)");
+        // System.out.println("\nPattern 3: Square Pattern (do-while)");
         printSquare(5);
 
-        System.out.println("\n--- Advanced Patterns ---");
-        System.out.println("Pattern 4: Pyramid Pattern");
-        printPyramid(5);
+        // System.out.println("\n--- Advanced Patterns ---");
+        // System.out.println("Pattern 4: Pyramid Pattern");
+        // printPyramid(5);
 
-        System.out.println("\nPattern 5: Diamond Pattern");
-        printDiamond(5);
+        // System.out.println("\nPattern 5: Diamond Pattern");
+        // printDiamond(5);
 
-        System.out.println("\nPattern 6: Floyd's Triangle (Number Pattern)");
-        printFloydsTriangle(5);
+        // System.out.println("\nPattern 6: Floyd's Triangle (Number Pattern)");
+        // printFloydsTriangle(5);
 
-        System.out.println("\nPattern 7: Hollow Square");
-        printHollowSquare(5);
+        // System.out.println("\nPattern 7: Hollow Square");
+        // printHollowSquare(5);
 
-        System.out.println("\nPattern 8: Right-aligned Triangle");
-        printRightAlignedTriangle(5);
+        // System.out.println("\nPattern 8: Right-aligned Triangle");
+        // printRightAlignedTriangle(5);
 
-        System.out.println("\nPattern 9: Alternating Star Rectangle");
-        printAlternatingRectangle(5, 10);
+        // System.out.println("\nPattern 9: Alternating Star Rectangle");
+        // printAlternatingRectangle(5, 10);
 
-        System.out.println("\nPattern 10: Hollow Pyramid");
-        printHollowPyramid(5);
+        // System.out.println("\nPattern 10: Hollow Pyramid");
+        // printHollowPyramid(5);
     }
 
     /**
