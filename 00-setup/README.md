@@ -46,7 +46,7 @@ Both commands should display version information.
 2. Install the Java Extension Pack:
     - Open VS Code
     - Go to Extensions (`Ctrl+Shift+X`)
-    - Search for "Java Extension Pack"
+    - Search for "Java" then click install on "Extension pack for Java" by Microsoft and also install "Java" by Oracle Corporation
     - Click "Install"
 
 ### Option 2: IntelliJ IDEA
