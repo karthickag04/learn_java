@@ -1,2 +1,4 @@
 chat ref for Oops under Java
 https://chatgpt.com/share/6978b121-f39c-800b-b069-b4ab65e4d0c4
+chat ref added for interfaces
+https://chatgpt.com/share/6a215c27-ed70-83e9-bf74-96d19c1b83f8
