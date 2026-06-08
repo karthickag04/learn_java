@@ -1,29 +1,130 @@
+import java.util.Scanner;
+
+public class ConditionalStatements{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the first number: ");
+        int firstNumber = input.nextInt();
+        System.out.println("Enter the second number: ");
+        int secondNumber = input.nextInt();
+        // System.out.println(firstNumber > secondNumber); 
+        if (firstNumber > secondNumber){
+            System.out.println("the given first number is greater than second number");
+        }
+        else if (firstNumber == secondNumber){
+            System.out.println("the given first number is equal to second number");
+        }
+
+        else if (firstNumber < secondNumber){
+            System.out.println("the given first number is less than second number");
+        }
+        
+        else{
+            System.out.println("the given first number is not greater than second number");
+        }
+    
+    }
+}
+
+
+
+
+// import java.util.Scanner;
+
+// public class ConditionalStatements{
+//     public static void main(String[] args){
+//         Scanner input = new Scanner(System.in);
+//         System.out.println("Enter your choice (add, subtract, multiply): ");
+//         String choice = input.nextLine();
+
+
+//         System.out.println("Enter the first number: ");
+//         int firstNumber = input.nextInt();
+//         System.out.println("Enter the second number: ");
+//         int secondNumber = input.nextInt();
+        
+//         switch(choice){
+//             case "add":
+//                 System.out.println("the added value of " + firstNumber + " and " + secondNumber + " is: " + (firstNumber + secondNumber));
+//                 break;
+//             case "subtract":
+//                 System.out.println("the subtracted value of " + firstNumber + " and " + secondNumber + " is: " + (firstNumber - secondNumber));
+//                 break;
+//             case "multiply":
+//                 System.out.println("the multiplied value of " + firstNumber + " and " + secondNumber + " is: " + (firstNumber * secondNumber));
+//                 break;
+//             default:
+//                 System.out.println("Invalid choice, please choose between add, subtract, or multiply");
+//         }
+
+//         // switch (choice) {
+//         //     case 1 -> System.out.println("You chose option 1");
+//         //     case 2 -> System.out.println("You chose option 2");
+//         //     case 3 -> System.out.println("You chose option 3");
+//         //     default -> System.out.println("Invalid choice, please choose between 1 and 3");
+           
+//         // }
+        
+    
+//     }
+// }
+
+
 
 // public class ConditionalStatements{
 //     public static void main(String[] args) {
 //         // if - else condition
 //         // switch condition
 //         // ternary operator
+//         int a = 10;
+//         int b = 20;
 
-//         int age = 30;
-//         String location = "Tamilnadu";
-
-//         if (age >= 18 && location == "Tamilnadu") {
-//             System.out.println("age is eligible to vote");
-            
+//         if (a < b){
+//            if (a == 10){
+//                 System.out.println("a is equal to 10");
+//             }
+//             else if (a == 20){
+//                 System.out.println("a is equal to 20");
+//             }
+//             else if (a == 30){
+//                 System.out.println("a is equal to 30");
+//              }
+//              else if (a == 40){
+//                 System.out.println("a is equal to 40");
+//              }
+//              else if (a == 50){
+//                 System.out.println("a is equal to 50");
+             
+//             }
+//              else {
+//                 if (a == 10 && a == 20 && a == 30 && a == 40 || a == 50){
+//                     System.out.println("a is equal to 10");
+//                 }
+//                 else {
+//                     System.out.println("a is less than b but not equal to 10, 20, 30, 40, or 50");
+//                 }
+//              }
 //         }
-//         else if (age >= 18 && location != "Tamilnadu") {
-//             System.out.println("age is eligible to vote but location is not Tamilnadu so look for other state rules");
+//         else if ((a == 10 && a == 20 && a == 30 && a == 40 || a == 50)){
+//             System.out.println("a is equal to 10");
 //         }
-        
-//        else{
-//            if (age < 18){
-//                System.out.println("age is not eligible to vote");
-//            }
-//            else {
-//                System.out.println("age is eligible to vote but location is not Tamilnadu");
-//            }
+//          else if (a == 20){
+//             System.out.println("a is equal to 20");
 //         }
+//          else if (a == 30){
+//             System.out.println("a is equal to 30");
+//          }
+//          else if (a == 40){
+//             System.out.println("a is equal to 40");
+//          }
+//          else if (a == 50){
+//             System.out.println("a is equal to 50");
+         
+//         }
+//         else {
+//             System.out.println("a is not less than b");
+//         }
+//     //    System.out.println("This is normal print statement");
 
 //     }
 // }
@@ -33,7 +134,10 @@
 
 // public class ConditionalStatements{
 //     public static void main(String[] args) {
+
 //         int number = 30;
+
+
 //         switch (number) {
 //             case 20: // String case not allowed in switch for int variable
 //                 System.out.println("number is 20");
@@ -276,46 +380,55 @@
 
 
 
-public class ConditionalStatements {
-    public static void main(String[] args) {
+// public class ConditionalStatements {
+//     public static void main(String[] args) {
         
-        int number = 3; // generates a random int from 0 to 19
+//         int number = 3; // generates a random int from 0 to 19
 
-        System.out.println("Random number generated: " + number);
+//         System.out.println("Random number generated: " + number);
 
-        // switch condition with 20 cases (0 to 19)
-        switch (number) {
-            case 0 -> System.out.println("Case 0: Zero");
-            case 1 -> System.out.println("Case 1: One");
-            case 2 -> System.out.println("Case 2: Two");
-            case 3 -> System.out.println("Case 3: Three");
-            case 4 -> System.out.println("Case 4: Four");
-            case 5 -> System.out.println("Case 5: Five");
-            case 6 -> System.out.println("Case 6: Six");
-            case 7 -> System.out.println("Case 7: Seven");
-            case 8 -> System.out.println("Case 8: Eight");
-            case 9 -> System.out.println("Case 9: Nine");
-            case 10 -> System.out.println("Case 10: Ten");
-            case 11 -> System.out.println("Case 11: Eleven");
-            case 12 -> System.out.println("Case 12: Twelve");
-            case 13 -> System.out.println("Case 13: Thirteen");
-            case 14 -> System.out.println("Case 14: Fourteen");
-            case 15 -> System.out.println("Case 15: Fifteen");
-            case 16 -> System.out.println("Case 16: Sixteen");
-            case 17 -> System.out.println("Case 17: Seventeen");
-            case 18 -> System.out.println("Case 18: Eighteen");
-            case 19 -> System.out.println("Case 19: Nineteen");
-            default -> System.out.println("This should never happen.");
-        }
-    }
-}
-
-
+//         // switch condition with 20 cases (0 to 19)
+//         switch (number) {
+//             case 0 -> System.out.println("Case 0: Zero");
+//             case 1 -> System.out.println("Case 1: One");
+//             case 2 -> System.out.println("Case 2: Two");
+//             case 3 -> System.out.println("Case 3: Three");
+//             case 4 -> System.out.println("Case 4: Four");
+//             case 5 -> System.out.println("Case 5: Five");
+//             case 6 -> System.out.println("Case 6: Six");
+//             case 7 -> System.out.println("Case 7: Seven");
+//             case 8 -> System.out.println("Case 8: Eight");
+//             case 9 -> System.out.println("Case 9: Nine");
+//             case 10 -> System.out.println("Case 10: Ten");
+//             case 11 -> System.out.println("Case 11: Eleven");
+//             case 12 -> System.out.println("Case 12: Twelve");
+//             case 13 -> System.out.println("Case 13: Thirteen");
+//             case 14 -> System.out.println("Case 14: Fourteen");
+//             case 15 -> System.out.println("Case 15: Fifteen");
+//             case 16 -> System.out.println("Case 16: Sixteen");
+//             case 17 -> System.out.println("Case 17: Seventeen");
+//             case 18 -> System.out.println("Case 18: Eighteen");
+//             case 19 -> System.out.println("Case 19: Nineteen");
+//             default -> System.out.println("This should never happen.");
+//         }
+//     }
+// }
 
 
 
 
 
+
+// public class ConditionalStatements {
+//     public static void main(String[] args) {
+        
+//         int number = 30;
+//         // (condition) ? (value if true) : (value if false)
+//         String result = (number == 20) ? "number is 20" : (number > 20) ? "number is greater than 20" : "number is not 20";
+//         System.out.println(result);
+        
+//     }
+// }
 
 
 
